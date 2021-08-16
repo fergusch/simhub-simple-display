@@ -6,7 +6,7 @@ SimHub includes built-in support for certain Arduino display modules, but I want
 
 ![](display.png)
 
-<small>\*The free version of SimHub has a 10Hz cap on the refresh rate of displays, but that should be enough for this one to update in basically real time. If you're having refresh rate issues with this display, don't be tempted to purchase the full version - troubleshoot elsewhere first.</small>
+<sup>\*The free version of SimHub has a 10Hz cap on the refresh rate of displays, but that should be enough for this one to update in basically real time. If you're having refresh rate issues with this display, don't be tempted to purchase the full version - troubleshoot elsewhere first.</sup>
 
 ### Contents
 - [Setup](#setup)
