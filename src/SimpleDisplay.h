@@ -103,6 +103,36 @@ void showGear(int num) {
       digitalWrite(SEG_G, HIGH);
       break;
   
+    case 7:
+      digitalWrite(SEG_A, HIGH);
+      digitalWrite(SEG_B, HIGH);
+      digitalWrite(SEG_C, HIGH);
+      digitalWrite(SEG_D, LOW);
+      digitalWrite(SEG_E, LOW);
+      digitalWrite(SEG_F, LOW);
+      digitalWrite(SEG_G, LOW);
+      break;
+
+    case 8:
+      digitalWrite(SEG_A, HIGH);
+      digitalWrite(SEG_B, HIGH);
+      digitalWrite(SEG_C, HIGH);
+      digitalWrite(SEG_D, HIGH);
+      digitalWrite(SEG_E, HIGH);
+      digitalWrite(SEG_F, HIGH);
+      digitalWrite(SEG_G, HIGH);
+      break;
+
+    case 9:
+      digitalWrite(SEG_A, HIGH);
+      digitalWrite(SEG_B, HIGH);
+      digitalWrite(SEG_C, HIGH);
+      digitalWrite(SEG_D, LOW);
+      digitalWrite(SEG_E, LOW);
+      digitalWrite(SEG_F, HIGH);
+      digitalWrite(SEG_G, HIGH);
+      break;
+  
     default: // turn the display off
       digitalWrite(SEG_A, LOW);
       digitalWrite(SEG_B, LOW);
